@@ -1,4 +1,4 @@
-package cn.edu.sdwu.android.classroom.sn17050718230;
+package cn.edu.sdwu.android.classroom.sn170507180230;
 
 import android.content.res.Resources;
 import android.content.res.TypedArray;
