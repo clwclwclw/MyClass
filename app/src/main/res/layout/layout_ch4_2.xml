@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <!--<RadioGroup作为一个容器包含着RadioButton,RadioButton必须和RadioGroup一起使用，否则不会实现单选功能-->
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:id="@+id/ch4_1_rg"
+        android:layout_height="wrap_content">
+        <!--单选按钮--><!--tag类似于备注,-->
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="2+2=4"
+            android:tag="1"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="2+3=4"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="2+4=4"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="2+5=4"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/ch4_1_tv"
+        android:layout_height="wrap_content" />
+</LinearLayout>
