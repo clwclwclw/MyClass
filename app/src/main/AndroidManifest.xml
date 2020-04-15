@@ -16,12 +16,14 @@
         <activity android:name=".CH6Activity1" />
         <activity android:name=".MainActivity" />
         >
-        <activity android:name=".CH7Activity1"></activity>
+        <activity android:name=".CH7Activity1" />
         <activity android:name=".CH7Activity3" />
-        <activity android:name=".CH7Activity2">
+        <activity android:name=".CH7Activity2" />
+        <activity android:name=".CH8Activity1"></activity>
+        <activity android:name=".CH9Activity1">
 
         </activity>
-        <activity android:name=".CH8Activity1">
+        <activity android:name=".CH9Activity2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
